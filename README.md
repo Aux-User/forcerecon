@@ -15,7 +15,8 @@ The script executes as follows:
     - OS
     - Potential vulnerabilities
   - Subject to a password strength check using a brute force attack with hydra
--  A report is generated and the user may choose to view the details of the scan on a single machine or the whole network.
+- After all hosts have been tested, a tone is played to let the user know that the run is concluded.
+- A report is generated and the user may choose to view the details of the scan on a single machine or the whole network.
 
 **Addtional files in repository**    
 pilotauth.lst and pilotroster.lst are the files containing login credentials used for the brute force attack recorded in the documentation.
